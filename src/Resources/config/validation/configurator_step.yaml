@@ -1,0 +1,8 @@
+Asdoria\SyliusConfiguratorPlugin\Entity\ConfiguratorStep:
+    properties:
+        code:
+            - NotBlank:
+                  groups: [ sylius, asdoria_configurator_plugin ]
+        translations:
+            - Valid:
+                  groups: [sylius, asdoria_configurator_plugin]

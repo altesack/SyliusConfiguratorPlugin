@@ -11,3 +11,6 @@ Asdoria\SyliusConfiguratorPlugin\Entity\ConfiguratorItem:
         translations:
             - Valid:
                   groups: [sylius, asdoria_configurator_plugin]
+        configuratorStep:
+            - NotBlank:
+                  groups: [sylius, asdoria_configurator_plugin]
